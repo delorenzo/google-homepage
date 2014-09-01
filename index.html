@@ -4,37 +4,47 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>
 	<body>
-		<section class="navbar">
-			<li><a href="https://plus.google.com/u/0/?tab=wX">+Julie</a></li>
-			<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
-			<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=9DvxU5HWM42wsATkwIGwBQ&ved=0CAQQqi4oAg">Images</a></li>
-			<li><a href="http://www.google.com/intl/en/options/"><img src="http://i.gyazo.com/170f9e0ef1424f48331b4e677003683f.png" /></a></li>
-			<li><a href="https://plus.google.com/u/0/notifications/all?hl=en"><img src="http://i.gyazo.com/cf09fa67b8975dd27ba6162dc781e43f.png" /></a></li>
-			<li><a id="share" href="https://plus.google.com/u/0/stream/all?hl=en">Share</a>
-			<li><a href="https://plus.google.com/u/0/me?tab=wX"><img src="http://i.gyazo.com/b1b871b55b5b94231390d5a992d07175.png" /></a></li>
-		</section>
+		<div class="container">	
+			<nav id="top">
+				<ul>
+					<li><a href="https://plus.google.com/u/0/?tab=wX">+Julie</a></li>
+					<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+					<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=9DvxU5HWM42wsATkwIGwBQ&ved=0CAQQqi4oAg">Images</a></li>
+					<li><a href="http://www.google.com/intl/en/options/"><img src="http://i.gyazo.com/170f9e0ef1424f48331b4e677003683f.png" /></a></li>
+					<li><a href="https://plus.google.com/u/0/notifications/all?hl=en"><img src="http://i.gyazo.com/cf09fa67b8975dd27ba6162dc781e43f.png" /></a></li>
+					<li><a id="share" href="https://plus.google.com/u/0/stream/all?hl=en">Share</a>
+					<li><a href="https://plus.google.com/u/0/me?tab=wX"><img id="beemo" src="http://i.gyazo.com/b1b871b55b5b94231390d5a992d07175.png" /></a></li>
+				</ul>
+			</nav>
 
-		<section class="main">
-			<div class="icon">
-				<img src="https://www.google.com/images/srpr/logo11w.png" />
-			</div>
-			<form action="search.asp">
-				<div class="search_bar">
-					<input type="text" name="search_input"><br />
+			<section class="main">
+				<div class="icon">
+					<img src="https://www.google.com/images/srpr/logo11w.png" />
 				</div>
-				<div class="buttons">
-					<input type="submit" value="Google Search">
-					<button type="button">I'm Feeling Lucky</button>
-				</div>
-			</form>
-		</section>
+				<form action="search.asp">
+					<div class="search_bar">
+						<input type="text" name="search_input"><br />
+					</div>
+					<div class="buttons">
+						<input type="submit" value="Google Search">
+						<button type="button">I'm Feeling Lucky</button>
+					</div>
+				</form>
+			</section>
 
-		<section class="footer">
-			<li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
-			<li><a href="https://www.google.com/services/?fg=1">Business</a></li>
-			<li><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
-			<li><a id="right" href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a></li>
-			<li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
-		</section>
+			<nav id="bottom">
+				<ul>
+					<span id="left">
+						<li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+						<li><a href="https://www.google.com/services/?fg=1">Business</a></li>
+						<li><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
+					</span>
+					<span id="right">
+						<li><a id="right" href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a></li>
+						<li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+					</span>
+				</ul>
+			</nav>
+		</div>
 	</body>
 </HTML>
