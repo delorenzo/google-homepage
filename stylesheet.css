@@ -62,6 +62,11 @@ nav#top img#beemo{
 	background-color: #f1f1f1;
 }
 
+#share:hover {
+	background-color: #e9e9e9;
+	text-decoration: none;
+}
+
 
 /*bottom nav bar*/
 nav#bottom {
